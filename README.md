@@ -3,6 +3,34 @@
 ## 🧠 A short question on arrays and loops
 User is required to write a function to determine the minimum number of vehicles that a group of people could take on a roadtrip.
 
+
+
+ ## ⚙️ Tech Stack
+| **Layer**          | **Technology**             |
+|---------------------|----------------------------|
+| Language(s)    | Typescript (transpiled to Javascript and stored inside the /dist folder)      |
+| Testing    | Jest, with @types/jest to accomodate Typescript     |
+| JIT compilation to run Typescript without repetitive builds   | ts-node     |
+
+## 🚀 Getting Started
+### :one: Clone and install
+```
+git clone https://github.com/aLearningLad/Collinson-Algo-Challenge.git
+cd your-folder
+npm install
+```
+
+### :two: Run Tests
+```
+npm test
+```
+
+### :three: Run the function itself
+Edit the arguments passed into *src/answer.ts* and then: 
+```
+npm  start
+```
+
 ### 💻 The code
 ```
 
@@ -35,33 +63,6 @@ console.log(leastCars([2, 3, 4, 2], [2, 5, 7, 2]));
 module.exports = { leastCars };
 
 
-```
-
-
- ## ⚙️ Tech Stack
-| **Layer**          | **Technology**             |
-|---------------------|----------------------------|
-| Language(s)    | Typescript (transpiled to Javascript and stored inside the /dist folder)      |
-| Testing    | Jest, with @types/jest to accomodate Typescript     |
-| JIT compilation to run Typescript without repetitive builds   | ts-node     |
-
-## 🚀 Getting Started
-### :one: Clone and install
-```
-git clone https://github.com/aLearningLad/Collinson-Algo-Challenge.git
-cd your-folder
-npm install
-```
-
-### :two: Run Tests
-```
-npm test
-```
-
-### :three: Run the function itself
-Edit the arguments passed into *src/answer.ts* and then: 
-```
-npm  start
 ```
 
 
