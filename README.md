@@ -17,3 +17,14 @@ git clone https://github.com/aLearningLad/Collinson-Algo-Challenge.git
 cd your-folder
 npm install
 ```
+
+### :two: Run Tests
+```
+npm test
+```
+
+### :three: Run the function itself
+Edit the arguments passed into *src/answer.ts* and then: 
+```
+npm  start
+```
