@@ -21,12 +21,13 @@ npm install
 ```
 
 ### :two: Run Tests
+There are three in total, one for each test case in the problem
 ```
 npm test
 ```
 
 ### :three: Run the function itself
-Edit the arguments passed into *src/answer.ts* and then: 
+Optionally edit the arguments passed into *src/answer.ts* and then: 
 ```
 npm  start
 ```
